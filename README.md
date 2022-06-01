@@ -1,5 +1,16 @@
 # CLD900
 
+## Exercise 4 - Create the iFlow Purchase Order
+
+```
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <feed>#SAP</feed>
+   </soapenv:Body>
+</soapenv:Envelope>
+```
+
 ## Exercise 6 - Consume the Purchase Order API from SAP API Business Hub
 
 ```
