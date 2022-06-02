@@ -6,7 +6,7 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Header/>
    <soapenv:Body>
-      <feed>#SAP</feed>
+      <feed>4500000011</feed>
    </soapenv:Body>
 </soapenv:Envelope>
 ```
@@ -28,4 +28,12 @@ xmlns:ns1=http://sap.com/xi/EDI
       <m:Contents>${in.body}</m:Contents>
    </soap:Body>
 </soap:Envelope> 
+```
+
+## Exercise 12 - Build a Second iFlow for Internal Notification
+
+```
+{ 
+  "text": "Message successful processed with Purchase Order ID: ${property.poid}" 
+}
 ```
